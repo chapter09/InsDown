@@ -38,7 +38,7 @@ def main():
     if len(sys.argv) < 2:
         usage = '''Please enter the URL of the Instagram image:
 
-$igdownloader https://www.instagram.com/p/BV0wxuBF_Be/ /path/to/save/img.jpeg
+insdown https://www.instagram.com/p/BV0wxuBF_Be/ /path/to/save/img.jpeg
         '''
         print(usage) 
         exit(1)
